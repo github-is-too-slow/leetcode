@@ -2,6 +2,7 @@
 #include <algorithm>
 using namespace std;
 
+// 分配饼干
 class Solution {
 public:
   int findContentChildren(vector<int>& g, vector<int>& s) {
