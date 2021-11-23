@@ -9,6 +9,13 @@ int main(int argc, char** argv)
 {
   // 定义一个容器
   vector<int> vi;
+  // 定义一个嵌套容器，初始化为5个元素，并令嵌套容器的元素
+  vector<vector<int>> vi2(5);
+  for(int i = 0; i < vi2.size(); i ++) {
+    // 
+    printf("ele: %d\n", vi2[i].size());
+  }
+  
   // 求长度
   printf("before insert: vector's size = %d\n", vi.size());
   // 末尾添加一个元素
